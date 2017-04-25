@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-lovefield/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-lovefield/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-lovefield/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-lovefield/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-lovefield/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-lovefield/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-lovefield/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-lovefield/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-lovefield/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-lovefield/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-lovefield/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-lovefield/build/coverage.html/index.html)
 
@@ -35,37 +35,28 @@
 ```json
 
 {
-    "name": "lovefield",
-    "version": "2.1.12",
-    "main": "dist/lovefield.min.js",
-    "description": "Lovefield - A relational database for web apps",
-    "keywords": [
-        "lovefield"
-    ],
-    "homepage": "https://github.com/google/lovefield",
-    "bugs": {
-        "url": "https://github.com/google/lovefield/issues"
-    },
-    "license": "Apache-2.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/google/lovefield.git"
-    },
-    "files": [
-        "dist",
-        "spac/codegen.js",
-        "spac/lovefield-spac",
-        "spac/parser.js",
-        "spac/spac.js",
-        "spac/template"
-    ],
     "bin": {
         "lovefield-spac": "spac/lovefield-spac"
     },
+    "bugs": {
+        "url": "https://github.com/google/lovefield/issues"
+    },
+    "contributors": [
+        {
+            "name": "Google Inc."
+        },
+        {
+            "name": "Pascal Borreli"
+        },
+        {
+            "name": "Kevin Kirsche"
+        }
+    ],
     "dependencies": {
         "js-yaml": "~3.1.0",
         "nopt": "~2.2.1"
     },
+    "description": "Lovefield - A relational database for web apps",
     "devDependencies": {
         "chalk": "^0.5.1",
         "firebase-token-generator": "*",
@@ -84,9 +75,45 @@
         "temporary": "^0.0.8",
         "toposort-class": "^0.3.1"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "07fb9f1d7840578ec784706cad0fbe7de4c93f52",
+        "tarball": "https://registry.npmjs.org/lovefield/-/lovefield-2.1.12.tgz"
+    },
     "engines": {
         "node": ">=4.3"
-    }
+    },
+    "files": [
+        "dist",
+        "spac/codegen.js",
+        "spac/lovefield-spac",
+        "spac/parser.js",
+        "spac/spac.js",
+        "spac/template"
+    ],
+    "gitHead": "bd1232ea63a94d87116330d99abda3ada391fe60",
+    "homepage": "https://github.com/google/lovefield",
+    "keywords": [
+        "lovefield"
+    ],
+    "license": "Apache-2.0",
+    "main": "dist/lovefield.min.js",
+    "maintainers": [
+        {
+            "name": "dpapad"
+        },
+        {
+            "name": "arthurhsu"
+        }
+    ],
+    "name": "lovefield",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/google/lovefield.git"
+    },
+    "scripts": {},
+    "version": "2.1.12"
 }
 ```
 
